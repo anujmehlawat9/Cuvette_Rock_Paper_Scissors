@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./win.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="app.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dangrek:wght@400&display=swap"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/cuvette_favicon.svg"/>
+    <title>Cuvette Game | Hurray</title>
+
+  </head>
+  <body>
+    <div class="win-parent">
+      <img class="cup-icon" alt="" src="./images/cup.svg" />
+      <img class="star-image" alt="" src="./images/stars.svg" />
+      <div class="main">
+        <div class="hurray">HURRAY!!</div>
+        <div class="you-won-the">YOU WON THE GAME</div>
+        <button class="play-again" onclick="location.href='index.html'">play again</button>
+      </div>
+    </div>
+
+    <button class="rules-btn" tabindex="1">rules</button>
+    <div class="modal">
+      <div class="modal__container">
+        <header class="modal__header">
+          <h2 class="modal__heading">game rules</h2>
+          <button class="close-btn">
+            <img src="./images/icon-close.svg" alt="Close Button" />
+          </button>
+        </header>
+        <div class="rules-text">
+          <div class="game-rules-parent">
+            <ul style="list-style-type: square">
+              <li>
+                Rock beats scissors, scissors beat paper, and paper beats rock.
+              </li>
+              <li>
+                Agree ahead of time whether you’ll count off “rock, paper,
+                scissors,shoot” or just “rock, paper, scissors.”
+              </li>
+              <li>
+                Use rock, paper, scissors to settle minor decisions or simply
+                play to pass the time
+              </li>
+              <li>
+                If both players lay down the same hand, each player lays down
+                another hand
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

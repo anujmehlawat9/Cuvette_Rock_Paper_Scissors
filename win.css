@@ -1,0 +1,103 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+
+body {
+    margin: 0;
+    line-height: normal;
+    /* font-family: "Barlow Semi Condensed", sans-serif; */
+  }
+  
+  :root {
+    /* fonts */
+    --font-dangrek: Dangrek;
+    --font-roboto: Roboto;
+  
+    /* font sizes */
+    --font-size-smi: 13px;
+    --font-size-49xl: 68px;
+    --font-size-mid: 17px;
+    --font-size-21xl: 40px;
+    --font-size-2xl: 21px;
+    --font-size-mini: 15px;
+    --font-size-20xl: 39px;
+    --font-size-6xl: 25px;
+  
+    /* Colors */
+    --dark-text: hsl(229, 25%, 31%);
+    --color-lightgreen-100: #89c15e;
+    --color-gray-100: #252525;
+    --color-white: #fff;
+    --color-gold: #ffd600;
+    --color-dimgray-100: #6b6b6b;
+    --color-dimgray-200: #656565;
+    --color-gainsboro: rgba(217, 217, 217, 0);
+    --color-darkslateblue: rgba(28, 48, 120, 0);
+  
+    /* border radiuses */
+    --br-smi: 13px;
+    --br-4xs: 9px;
+    --br-3xs: 10px;
+  }
+
+.cup-icon {
+    position: absolute;
+    height: 27.24%;
+    width: 15.66%;
+    top: 25.61%;
+    right: 40.83%;
+    bottom: 47.15%;
+    left: 43.52%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+
+  .star-image {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    top: 30%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+      
+  }
+
+  .hurray,
+  .you-won-the {
+    position: absolute;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    font-family: var(--font-roboto);
+
+  }
+  .hurray {
+    top: 60%;
+    left: 1%;
+    font-size: var(--font-size-50xl);
+  }
+  .you-won-the {
+    left: 1%;
+    top: 75%;
+    font-size: var(--font-size-21xl);
+  }
+  .play-again{
+    color: var(--dark-text);
+    position: absolute;
+    top: 653px;
+    left: 665px;
+    text-align: left;
+    display: inline-block;
+  }
+  .win-parent {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-size: 91px;
+    color: var(--color-white);
+  }
+
+
